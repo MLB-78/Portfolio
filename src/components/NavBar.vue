@@ -7,7 +7,7 @@
                 <a class="nav-link active" href="#">Aboute me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">My CV</a>
+              <a class="nav-link active" href="/image/CV.pdf" target="_blank">My CV</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="#">Projects</a>
@@ -16,7 +16,7 @@
                 <a class="nav-link active" href="#">Experiences</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active" href="mailto:maximebosse1@outlook.fr">Contact</a>
             </li>
         </ul>
     </div>
