@@ -1,24 +1,7 @@
 # portfolio
 
-## Project setup
-```
-npm install
-```
+## First project with the framework vue js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+It's just a simple portfolio ... nothing special you know.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Make with this video : https://www.youtube.com/watch?v=7yd5Q6b-rss&t=151s
