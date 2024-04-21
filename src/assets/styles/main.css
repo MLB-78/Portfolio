@@ -12,8 +12,17 @@ body{
 }
 
 /* Début navbar */
+.navbar-nav .nav-item .nav-link {
+  color: #fff; /* Couleur de texte par défaut */
+  transition: color 0.3s; /* Transition pour une animation fluide */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(229, 189, 9); /* Couleur de texte jaune au survol */
+}
 .navbar {
   font-size: 20px;
+  padding: 15px;
 }
 
 .bg-dark {
@@ -45,7 +54,9 @@ body{
 .nav-link.active {
   font-weight: bold; /* Mettre en gras le lien actif */
 }
-
+ul.navbar-nav.ml-auto {
+  margin-left: 100px;
+}
 /* fin navbar */
 
 /* début Head */
@@ -90,7 +101,29 @@ body{
 }
 
 /* fin head */
+/* début about me */
+.presentation{
+  width: 60%;
+  margin: auto;
+  border: solid;
+  border-radius: 9px;
+  padding: 25px;
+}
+/* fin about me */
+/* début projects */
+#zim{
+  width: 90%;
+  margin: auto;
+}
+.card-image {
+  width: 100%;
+  height: auto; /* Pour maintenir le ratio de l'image */
+}
+.card-body{
+  align-items: center;
+}
 
+/* fin projects */
 /* début RÉA BOOTSTRAP */
 
 #zua{
@@ -103,6 +136,7 @@ body{
 
 img[src="image/me.png"] {
   height: 400px;
-  border-radius: 100%;
+  border-radius: 5px;
+  box-shadow: black 0px 0px 5px 0px;
 }
 
