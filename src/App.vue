@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <Navbar />
-    <HelloWorld msg="Portfolio MLB"/>
+    <Navbar />,
+    <HelloWorld />
+    
   </div>
 </template>
 
@@ -10,14 +11,14 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import HelloWorld from './components/HelloWorld.vue';
 import Navbar from './components/NavBar.vue';
-import 'bootswatch/dist/litera/bootstrap.min.css'; // Chemin vers le thème Litera
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootswatch/dist/litera/bootstrap.min.css'; // Chemin vers le thème Litera
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Navbar,
+    HelloWorld,
   },
 };
 

@@ -3,7 +3,7 @@ body{
   margin: 0;
   padding: 0;
   color: rgb(252, 252, 252);
-  background-color: rgb(0, 0, 0);
+  background-color: beige;
   font-family: Tahoma, sans-serif;
 }
 
@@ -11,10 +11,14 @@ body{
   text-align: center;
 }
 
+/* Début navbar */
 .navbar {
-  background-color: #343a40; /* Couleur de fond */
-  padding: 4% 0; /* Espacement autour du contenu */
   font-size: 20px;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgb(35 126 132) !important;
 }
 
 .container {
@@ -27,6 +31,7 @@ body{
   padding: 0; /* Supprimer les marges internes de la liste */
   display: flex; /* Utilisation de flexbox pour aligner les éléments */
   flex-direction: row;
+  z-index: 1;
 }
 
 .nav-item {
@@ -41,5 +46,63 @@ body{
   font-weight: bold; /* Mettre en gras le lien actif */
 }
 
+/* fin navbar */
 
+/* début Head */
+
+.hOne{
+  font-size: 29px;
+}
+
+.head{
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 400px;
+  width: 100%;
+  color: white;
+
+}
+
+.head:before{
+  content: " ";
+  position: absolute;
+  top: -75px;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(35 126 132);
+  transform: skew(0deg, 6deg);
+
+}
+.head:after{
+  content: " ";
+  position: absolute;
+  top: -75px;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(35 126 132);
+  transform: skew(0deg, -6deg);
+  z-index: -888888;
+
+}
+
+/* fin head */
+
+/* début RÉA BOOTSTRAP */
+
+#zua{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 65%;
+  margin: auto;
+}
+
+img[src="image/me.png"] {
+  height: 400px;
+  border-radius: 100%;
+}
 
