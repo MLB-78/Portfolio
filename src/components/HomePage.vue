@@ -12,10 +12,10 @@
           </a>
         </div>
       </v-col>
-      <v-col cols="5">
+      <v-col cols="5" >
         <div style="position:relative;z-index: 999;" class="mt-16">
           <v-icon>
-            <img src="image/me.png">
+            <img src="image/me.png" >
           </v-icon>
         </div>
       </v-col>
@@ -24,9 +24,9 @@
 </v-container>
 <br><br>
 <main style="color: black;">
-  <h3 style="text-align: center;">About me</h3>
+  <h3 style="text-align: center;" id="presentation">About me</h3>
   <br><br>
-  <div class="presentation" id="presentation">
+  <div class="presentation" >
     <p>
       As a web development student in a BTS SIO 
       program, I'm 20 years old and about to start 

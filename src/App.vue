@@ -3,6 +3,7 @@
     <Navbar />,
     <HomePage/>,
     <CardProjects/>,
+    <Analytics/>,
 
     
     <footer class="footer">
@@ -21,6 +22,7 @@ import App from './App.vue';
 import HomePage from './components/HomePage.vue';
 import Navbar from './components/NavBar.vue';
 import CardProjects from './components/CardProjects.vue';
+import { Analytics } from "@vercel/analytics/react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootswatch/dist/litera/bootstrap.min.css'; // Chemin vers le thème Litera
 
@@ -30,6 +32,7 @@ export default {
     Navbar,
     HomePage,
     CardProjects,
+    Analytics,
   },
   
  

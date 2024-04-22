@@ -13,9 +13,6 @@
           <a class="nav-link active" @click="scrollToProjets" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Experiences</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link active" href="mailto:maximebosse1@outlook.fr">Contact</a>
         </li>
         <!-- Logos LinkedIn et GitHub -->
