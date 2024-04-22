@@ -124,6 +124,25 @@ ul.navbar-nav.ml-auto {
 }
 
 /* fin projects */
+/* début exp */
+.ziak{
+  display:flex;
+  margin: auto;
+  width: 50%;
+  
+}
+.z0 {
+  margin: auto;
+  width: 100;
+  display: flex;
+}
+/* fin exp */
+.footer {
+  background-color: rgb(35, 126, 132);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
 /* début RÉA BOOTSTRAP */
 
 #zua{

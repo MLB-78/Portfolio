@@ -10,7 +10,7 @@
           <a class="nav-link active" href="/image/CV.pdf" target="_blank">My CV</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#">Projects</a>
+          <a class="nav-link active" @click="scrollToProjets" href="#">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#">Experiences</a>
@@ -47,6 +47,15 @@ export default {
       if (presentationSection) {
         window.scrollTo({
           top: presentationSection.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    },
+    scrollToProjets() {
+      const projetsSection = document.getElementById('projets');
+      if (projetsSection) {
+        window.scrollTo({
+          top: projetsSection.offsetTop,
           behavior: 'smooth'
         });
       }
