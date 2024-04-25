@@ -143,7 +143,7 @@ ul.navbar-nav.ml-auto {
   padding: 20px 0;
   text-align: center;
 }
-/* début RÉA BOOTSTRAP 1*/
+/* début RÉA BOOTSTRAP */
 
 #zua{
   display: flex;
@@ -159,3 +159,26 @@ img[src="image/me.png"] {
   box-shadow: black 0px 0px 5px 0px;
 }
 
+/* Media Queries */
+
+/* Media query pour les écrans de moins de 800px */
+@media screen and (max-width: 800px) {
+
+  img[src="image/me.png"]{
+    height: 100px;
+  }
+  .navbar-nav{
+    flex-direction: inherit;
+    align-self: start;
+  }
+  .nav-item {
+    margin-left: auto;
+  }
+  .presentation {
+    width: 90%;
+  }
+  #zua {
+    display: contents;
+  }
+
+}
