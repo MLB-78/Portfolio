@@ -4,7 +4,9 @@
     <HomePage/>,
     <CardProjects/>
 
-    
+    <br>
+    <p style="text-align:center;color:rgb(35 126 132);font-family: cursive;">"Avec de l'entraînement, même un raté peut devenir un génie." | Rock Lee</p>
+    <br>
     <footer class="footer">
       <div class="container">
         <p>Copyright © 2024 by MLB Production</p>
