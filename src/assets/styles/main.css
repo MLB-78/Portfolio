@@ -24,17 +24,17 @@ body{
 }
 button.nav-link.active {
   color: rgb(35 126 132);
-  background-color: beige;
+  background-color: beige; 
   padding: 12px;
-  border-radius: 2.8px;
+  border-radius: 2.8px; 
 }
-button.nav-link.active:hover {
+button.nav-link.active:hover { 
   transform: rotate(3.1deg);
-  transition: 0.4s;
-}
+  transition: 0.4s; 
+} 
 
-.navbar {
-  font-size: 20px;
+.navbar { 
+  font-size: 20px; 
   padding: 15px;
 }
 
