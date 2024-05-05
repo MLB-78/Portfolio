@@ -78,7 +78,7 @@
         <!-- Quatrième carte -->
         <div class="card mb-3">
           <h3 class="card-header" id="sapala">Bibliothèque</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 90 50" style="font-size:1.125rem;text-anchor:middle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 50 50" style="font-size:1.125rem;text-anchor:middle">
             <image href="image/biblio.png" class="" width="100%" height="100%" />
           </svg>
           <div class="card-body">
