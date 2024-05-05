@@ -6,6 +6,10 @@ body{
   background-color: beige;
   font-family: Tahoma, sans-serif;
 }
+  body {
+    overflow-x: hidden;
+  }
+
 
 #ziak{
   text-align: center;
