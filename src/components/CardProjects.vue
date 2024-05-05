@@ -10,7 +10,7 @@
             <image href="image/i2.png" class="" width="100%" height="100%" />
           </svg>
           <div class="card-body">
-            <p class="card-text">"Une plateforme de vente et de location de biens pour les particuliers, conçue et développée avec Symfony et une base de données robuste, site effectué en équipe"</p>
+            <p class="card-text">Une plateforme de vente et de location de biens pour les particuliers, conçue et développée avec Symfony et une base de données robuste, site effectué en équipe</p>
           </div>
           <div class="card-body">
             <img src="image/sf.png" style="height: 30px;">
