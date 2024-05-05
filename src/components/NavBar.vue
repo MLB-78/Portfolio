@@ -4,16 +4,18 @@
       <ul class="navbar-nav mr-auto">
         <!-- Rubriques principales avec marges droites -->
         <li class="nav-item">
-          <a class="nav-link active" @click="scrollToPresentation">About me</a>
+          <button class="nav-link active" @click="scrollToPresentation" style="color: rgb(35 126 132);">About me</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/image/CV.pdf" target="_blank">My CV</a>
+          <a href="image/CV.pdf" >
+            <button class="nav-link active" target="_blank" style="color: rgb(35 126 132);">My CV</button>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" @click="scrollToProjets" href="#">Projects</a>
+          <button class="nav-link active" @click="scrollToProjets" href="#" style="color: rgb(35 126 132);">Projects</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="mailto:maximebosse1@outlook.fr">Contact</a>
+          <button class="nav-link active" href="mailto:maximebosse1@outlook.fr" style="color: rgb(35 126 132);">Contact</button>
         </li>
         <!-- Logos LinkedIn et GitHub -->
         <li class="nav-item logo-item">

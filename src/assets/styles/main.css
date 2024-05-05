@@ -13,13 +13,19 @@ body{
 
 /* Début navbar */
 .navbar-nav .nav-item .nav-link {
-  color: #fff; /* Couleur de texte par défaut */
   transition: color 0.3s; /* Transition pour une animation fluide */
 }
-
-.navbar-nav .nav-item .nav-link:hover {
-  color: rgb(229, 189, 9); /* Couleur de texte jaune au survol */
+button.nav-link.active {
+  color: rgb(35 126 132);
+  background-color: white;
+  padding: 10px;
+  border-radius: 2px;
 }
+button.nav-link.active:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
 .navbar {
   font-size: 20px;
   padding: 15px;
@@ -105,12 +111,16 @@ ul.navbar-nav.ml-auto {
 .presentation{
   width: 60%;
   margin: auto;
-  border: solid;
+  border: solid rgb(35, 126, 132);
   border-radius: 9px;
   padding: 25px;
 }
 /* fin about me */
 /* début projects */
+.col-md-6 {
+  width: 38%;
+  margin: auto;
+}
 #zim{
   width: 90%;
   margin: auto;
@@ -122,7 +132,9 @@ ul.navbar-nav.ml-auto {
 .card-body{
   align-items: center;
 }
-
+#sapala{
+  color: rgb(35, 126, 132);
+}
 /* fin projects */
 /* début exp */
 .ziak{
@@ -142,6 +154,14 @@ ul.navbar-nav.ml-auto {
   color: white;
   padding: 20px 0;
   text-align: center;
+}
+
+.card-footer{
+  align-items: center;
+}
+
+#footamba{
+  text-decoration: none;
 }
 /* début RÉA BOOTSTRAP */
 
