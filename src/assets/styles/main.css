@@ -142,9 +142,12 @@ ul.navbar-nav.ml-auto {
 }
 .card-body{
   align-items: center;
+  color: beige;
+  background-color: rgb(7, 140, 149);
 }
-#sapala{
-  color: rgb(7, 140, 149);
+#sapala {
+  color: beige;
+  background-color: rgb(7, 140, 149);
 }
 /* fin projects */
 /* début exp */
@@ -169,10 +172,14 @@ ul.navbar-nav.ml-auto {
 
 .card-footer{
   align-items: center;
+  background-color: rgb(7, 140, 149);
+  text-align: center;
 }
 
 #footamba{
   text-decoration: none;
+;
+  color: beige;
 }
 /* début RÉA BOOTSTRAP */
 
