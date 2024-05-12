@@ -1,6 +1,6 @@
 # Portfolio Showcase
 
-## Embark on a Vue.js Journey
+## Embark on a Vue.js 
 
 Welcome to my portfolio, where simplicity meets sophistication through the lens of Vue.js. This isn't just another showcase; it's a testament to the power and elegance of Vue.js, where each line of code speaks volumes.
 
