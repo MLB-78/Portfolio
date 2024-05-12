@@ -7,6 +7,7 @@
           <h1 class="hOne" style="color: #c4c4c4;">Hello,</h1>
           <h1 class="hOne">I'm Maxime Njo</h1>
           <h1 class="hOne" style="color: #c4c4c4;">Web Developer & Integrator</h1>
+          <br>
           <a href="mailto:maximebosse1@outlook.fr" class="bukateh">Contact me</a>
         </div>
         &nbsp; &nbsp; &nbsp;
