@@ -10,7 +10,7 @@
             <image href="image/i2.png" class="" width="100%" height="100%" />
           </svg>
           <div class="card-body">
-            <p class="card-text">Une plateforme de vente et de location de biens pour les particuliers, conçue et développée avec Symfony et une base de données robuste, site effectué en équipe</p>
+            <p class="card-text">Une plateforme de vente et de location de biens pour les particuliers, conçue et développée avec Symfony et une base de données robuste, site effectué en équipe.</p>
           </div>
           <div class="card-body">
             <img src="image/sf.png" style="height: 30px;">
@@ -82,7 +82,7 @@
             <image href="image/biblio.png" class="" width="100%" height="100%" />
           </svg>
           <div class="card-body">
-            <p class="card-text">Projet permettant aux utilisateurs d'effectuer des opérations basiques sur des données stockées (CRUD) dans une base de données relationnelle. (Méthode ADO)</p>
+            <p class="card-text">Projet permettant aux utilisateurs d'effectuer des opérations basiques sur des données stockées (CRUD) dans une base de données relationnelle. [Méthode ADO].</p>
           </div>
           <div class="card-body">
             <img src="image/c.png" style="height: 30px;">
@@ -92,6 +92,31 @@
           </div>
           <div class="card-footer text-muted">
             <a href="https://github.com/MLB-78/TP_Bibliotheque" id="footamba">
+              Cliquez sur le logo pour voir le dépôt github
+              <img src="image/git.png" style="height: 30px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Troisième carte -->
+        <div class="card mb-3">
+          <h3 class="card-header" id="sapala">Toumba Lena</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 223 150" style="font-size:1.125rem;text-anchor:middle">
+            <image href="image/logi.png" class="" width="100%" height="100%" />
+          </svg>
+          <div class="card-body">
+            <p class="card-text">Une entreprise fictive de logistique appelée "Toumba Lena". Utilisant Sass pour une gestion efficace des styles, le site présente une interface moderne et conviviale, mettant en valeur les services proposés par l'entreprise.</p>
+          </div>
+          <div class="card-body">
+            <img src="image/js.png" style="height: 30px;">
+            <img src="image/sass.png" style="height: 30px;">
+            <img src="image/gi.png" style="height: 30px;">
+          </div>
+          <div class="card-footer text-muted">
+            <a href="https://github.com/MLB-78/Projet-Sass" id="footamba">
               Cliquez sur le logo pour voir le dépôt github
               <img src="image/git.png" style="height: 30px;">
             </a>

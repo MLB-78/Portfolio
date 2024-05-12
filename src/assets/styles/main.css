@@ -40,7 +40,7 @@ button.nav-link.active:hover {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgb(35 126 132) !important;
+  background-color: rgb(7, 140, 149) !important;
 }
 
 .container {
@@ -48,6 +48,9 @@ button.nav-link.active:hover {
   flex-direction: column;
 }
 
+#zotopi{
+  color: rgb(7, 140, 149);
+}
 .navbar-nav {
   list-style: none; /* Supprimer les puces de la liste */
   padding: 0; /* Supprimer les marges internes de la liste */
@@ -96,7 +99,7 @@ ul.navbar-nav.ml-auto {
   left: 0;
   height: 100%;
   width: 50%;
-  background-color: rgb(35 126 132);
+  background-color: rgb(7, 140, 149);
   transform: skew(0deg, 6deg);
 
 }
@@ -107,7 +110,7 @@ ul.navbar-nav.ml-auto {
   right: 0;
   height: 100%;
   width: 50%;
-  background-color: rgb(35 126 132);
+  background-color: rgb(7, 140, 149);
   transform: skew(0deg, -6deg);
   z-index: -888888;
 
@@ -118,7 +121,8 @@ ul.navbar-nav.ml-auto {
 .presentation{
   width: 60%;
   margin: auto;
-  border: solid rgb(35, 126, 132);
+  font-family: cursive;
+  border: solid rgb(7, 140, 149);
   border-radius: 9px;
   padding: 25px;
 }
@@ -140,7 +144,7 @@ ul.navbar-nav.ml-auto {
   align-items: center;
 }
 #sapala{
-  color: rgb(35, 126, 132);
+  color: rgb(7, 140, 149);
 }
 /* fin projects */
 /* début exp */
@@ -157,7 +161,7 @@ ul.navbar-nav.ml-auto {
 }
 /* fin exp */
 .footer {
-  background-color: rgb(35, 126, 132);
+  background-color: rgb(7, 140, 149);
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -197,6 +201,12 @@ img[src="image/me.png"] {
   .navbar-nav{
     flex-direction: inherit;
     align-self: start;
+    margin-right: 30px;
+  }
+
+  ul.navbar-nav.ml-auto {
+    margin-left: 120px;
+    margin-right: 15px;
   }
   .nav-item {
     margin-left: auto;
@@ -206,6 +216,22 @@ img[src="image/me.png"] {
   }
   #zua {
     display: contents;
+  }
+  .col-md-6 {
+    width: 78%;
+  }
+
+  .head:before{
+    display: none;
+  }
+  .head:after{
+    display: none;
+  }
+  .head{
+    background-color: rgb(7, 140, 149) !important;
+  }
+  button.nav-link.active {
+    width: 150px;
   }
 
 }
