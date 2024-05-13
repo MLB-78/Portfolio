@@ -133,6 +133,7 @@ ul.navbar-nav.ml-auto {
     border-radius: 10px;
     display: block;
     width: 55%;
+    min-width: 180px;
     margin: auto;
 }
 
