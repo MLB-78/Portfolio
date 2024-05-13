@@ -10,6 +10,10 @@ body{
     overflow-x: hidden;
   }
 
+  .app{
+    overflow-x: hidden;
+  }
+
   #zutele{
     text-decoration: none;
   }
@@ -217,6 +221,10 @@ img[src="image/me.png"] {
 
 /* Media query pour les écrans de moins de 800px */
 @media screen and (max-width: 800px) {
+
+  #app{
+    overflow-x: hidden;
+  }
 
   img[src="image/me.png"]{
     height: 100px;
