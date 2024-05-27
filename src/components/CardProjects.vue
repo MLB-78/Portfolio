@@ -49,6 +49,54 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-6">
+        <!-- Première carte -->
+        <div class="card mb-3">
+          <h3 class="card-header" id="sapala">Boxing Superstars</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 223 150" style="font-size:1.125rem;text-anchor:middle">
+            <image href="image/bs.png" class="" width="100%" height="100%" />
+          </svg>
+          <div class="card-body">
+            <p class="card-text">Ce site web est conçu pour vous permettre de vous entraîner en cardio en pratiquant le "Shadow Boxing" avec différents niveaux de difficulté.. Réaliser avec React, Node & MongoDB.</p>
+          </div>
+          <div class="card-body">
+            <img src="image/re.png" style="height: 30px;">
+            <img src="image/node.png"  style="height: 30px;">
+            <img src="image/mdb.png" style="height: 25px;">
+            <img src="image/gi.png" style="height: 30px;">
+          </div>
+          <div class="card-footer text-muted">
+            <a href="https://github.com/MLB-78/Boxing_Superstars" id="footamba">
+              Cliquez sur le logo pour voir le dépôt github
+              <img src="image/git.png"  style="height: 30px;">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- Deuxième carte -->
+        <div class="card mb-3">
+          <h3 class="card-header" id="sapala">DELCO</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 223 150" style="font-size:1.125rem;text-anchor:middle">
+            <image href="image/d4.png" class="" width="100%" height="100%" />
+          </svg>
+          <div class="card-body">
+            <p class="card-text">Un forum interne pour les employés de DELCO. Permet la création de comptes, la connexion, la publication et la réponse aux questions sur des thématiques professionnelles.</p>
+          </div>
+          <div class="card-body">
+            <img src="image/sf.png" style="height: 30px;">
+            <img src="image/gi.png" style="height: 30px;">
+          </div>
+          <div class="card-footer text-muted">
+            <a href="https://github.com/MLB-78/Delco_Forum" id="footamba">
+              Cliquez sur le logo pour voir le dépôt github
+              <img src="image/git.png"  style="height: 30px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Deuxième rangée -->
     <div class="row">
       <div class="col-md-6">

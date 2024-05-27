@@ -4,9 +4,9 @@
     <v-row id="zua">  
       <v-col cols="5">
         <div style="position:relative" class="mt-16">
-          <h1 class="hOne" style="color: #c4c4c4;">Hello,</h1>
-          <h1 class="hOne">I'm Maxime Njo</h1>
-          <h1 class="hOne" style="color: #c4c4c4;">Web Developer & Integrator</h1>
+          <h1 class="hOne" style="color: #c4c4c4;">Bonjour,</h1>
+          <h1 class="hOne">Maxime Njo</h1>
+          <h1 class="hOne" style="color: #c4c4c4;">Développeur Web</h1>
           <br>
           <a href="mailto:maximebosse1@outlook.fr" class="bukateh">Contact me</a>
         </div>
@@ -23,23 +23,18 @@
   </div> 
 <br><br>
 <main style="color: black;">
-  <h3 style="text-align: center;color: rgb(7, 140, 149);" id="presentation">About me</h3>
+  <h3 style="text-align: center;color: rgb(7, 140, 149);" id="presentation">À propos de moi</h3>
   <br><br>
   <div class="presentation" >
     <p style="color: rgb(7, 140, 149);">
-      As a web development student in a BTS SIO 
-      program, I'm 20 years old and about to start 
-      my third year at ETNA, combining work and study.
-      I'm deeply passionate about crafting innovative
-      websites, and my academic journey has been
-      instrumental in honing my programming skills
-      and project management abilities. My portfolio
-      showcases my creativity and attention to detail
-      through concrete projects.
+       Je m'appelle Maxime Njo, j'ai 20 ans et je suis sur le point de commencer ma troisième année à l'ETNA, je suis à la recherche d'une alternance pour effectuer mon bachelor concepteur développeur d'application.
+       Je suis profondément passionné par le développement web, et mon parcours académique a été déterminant pour perfectionner mes compétences en programmation. Mon portfolio
+       met en valeur ma créativité et mon souci du détail
+       à travers des projets concrets.
     </p>
   </div>
     <br><br>
-    <h3 style="text-align: center;color: rgb(7, 140, 149);">My latest projects</h3>
+    <h3 style="text-align: center;color: rgb(7, 140, 149);">Mes dernières réalisation</h3>
     <div class="zolamba" id="projets">
 
     </div>

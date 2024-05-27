@@ -4,17 +4,17 @@
       <ul class="navbar-nav mr-auto">
         <!-- Rubriques principales avec marges droites -->
         <li class="nav-item">
-          <button class="nav-link active" @click="scrollToPresentation" style="color: rgb(7, 140, 149);">About me</button>
+          <button class="nav-link active" @click="scrollToPresentation" style="color: rgb(7, 140, 149);">À propos</button>
           &nbsp;
         </li>
         <li class="nav-item">
           <a href="image/CV.pdf" id="zutele" >
-            <button class="nav-link active" target="_blank"  style="color: rgb(7, 140, 149);">My CV</button>
+            <button class="nav-link active" target="_blank"  style="color: rgb(7, 140, 149);">Mon CV</button>
             &nbsp;
           </a>
         </li>
         <li class="nav-item">
-          <button class="nav-link active" @click="scrollToProjets" href="#" style="color: rgb(7, 140, 149);">Projects</button>
+          <button class="nav-link active" @click="scrollToProjets" href="#" style="color: rgb(7, 140, 149);">Projets</button>
           &nbsp;
         </li>
         <li class="nav-item">

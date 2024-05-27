@@ -5,7 +5,7 @@
       <div class="dot"></div>
       <div class="dot"></div>
     </div>
-    <p style="font-size: 25px;">&nbsp;MLB production</p>
+    <p style="font-size: 25px;">&nbsp;MLB Production</p>
   </div>
 </template>
 
